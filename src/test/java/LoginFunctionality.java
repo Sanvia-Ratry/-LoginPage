@@ -13,6 +13,8 @@ public class LoginFunctionality {
         driver.findElement(By.name("username")).sendKeys("Admin");
         driver.findElement(By.name("password")).sendKeys("admin123");
         driver.quit();
+        driver.close();
+
     }
 
 }
